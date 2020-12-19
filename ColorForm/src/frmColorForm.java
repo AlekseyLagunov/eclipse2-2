@@ -45,16 +45,16 @@ public class frmColorForm extends JFrame {
 		lblNameColor.setBounds(46,84,145,23);
 		contentPane.add(lblNameColor);
 		
-		JButton btnChangeColor = new JButton("Изменить цвет формы");
+		JButton btnChangeColor = new JButton("Г€Г§Г¬ГҐГ­ГЁГІГј Г¶ГўГҐГІ ГґГ®Г°Г¬Г»");
 		btnChangeColor.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if(contentPane.getBackground()==Color.RED) {
 					contentPane.setBackground(Color.GREEN);
-					lblNameColor.setText("Зелёный");
+					lblNameColor.setText("Г‡ГҐГ«ВёГ­Г»Г©");
 				}
 				else {
 					contentPane.setBackground(Color.RED);
-					lblNameColor.setText("Красный");
+					lblNameColor.setText("ГЉГ°Г Г±Г­Г»Г©");
 				}
 			}
 		});
@@ -62,3 +62,4 @@ public class frmColorForm extends JFrame {
 		contentPane.add(btnChangeColor);
 	}
 }
+
